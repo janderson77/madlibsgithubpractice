@@ -1,3 +1,4 @@
+
 """Madlibs Stories."""
 
 
@@ -32,7 +33,7 @@ class Story:
         for (key, val) in answers.items():
             text = text.replace("{" + key + "}", val)
 
-        return text
+        return test
 
 
 # Here's a story to get you started
